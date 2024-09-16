@@ -48,14 +48,24 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: "Testing",
-    to: "/testing",
+    name: "Products",
+    to: "/products",
     icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: "Test",
-        to: "/testing/test",
+        name: "Create",
+        to: "/products/create",
+      },
+      {
+        component: CNavItem,
+        name: "Update",
+        to: "/products/update",
+      },
+      {
+        component: CNavItem,
+        name: "View",
+        to: "/products/view",
       },
     ],
   },

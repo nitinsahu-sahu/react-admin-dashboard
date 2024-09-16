@@ -6,8 +6,10 @@ const Typography = React.lazy(
   () => import("./views/theme/typography/Typography"),
 );
 
-// Testing
-const Test = React.lazy(() => import("./views/testing/test/Test"));
+// Products
+const Create = React.lazy(() => import("./views/products/create/Create"));
+const Update = React.lazy(() => import("./views/products/update/Update"));
+const View = React.lazy(() => import("./views/products/view/View"));
 
 // Base
 const Accordion = React.lazy(() => import("./views/base/accordion/Accordion"));
@@ -88,7 +90,9 @@ const routes = [
   { path: "/theme/typography", name: "Typography", element: Typography },
   { path: "/base", name: "Base", element: Cards, exact: true },
   { path: "/base/accordion", name: "Accordion", element: Accordion },
-  { path: "/testing/test", name: "Test", element: Test },
+  { path: "/products/create", name: "Create", element: Create },
+  { path: "/products/update", name: "Update", element: Update },
+  { path: "/products/view", name: "View", element: View },
   { path: "/base/breadcrumbs", name: "Breadcrumbs", element: Breadcrumbs },
   { path: "/base/cards", name: "Cards", element: Cards },
   { path: "/base/carousels", name: "Carousel", element: Carousels },
