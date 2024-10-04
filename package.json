@@ -5,7 +5,7 @@
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nitinsahu-sahu/react-admin-dashboard.git"
+    "url": ""
   },
   "license": "MIT",
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
@@ -13,9 +13,7 @@
     "build": "vite build",
     "lint": "eslint \"src/**/*.js\"",
     "serve": "vite preview",
-    "client": "vite",
-    "server":"npm start --prefix server",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "vite",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "dependencies": {

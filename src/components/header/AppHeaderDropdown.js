@@ -36,12 +36,12 @@ const AppHeaderDropdown = () => {
           <CIcon icon={cilBell} className="me-2" />
           Updates
           <CBadge color="info" className="ms-2">
-            42
+            4233
           </CBadge>
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilEnvelopeOpen} className="me-2" />
-          Messages
+          Messagess
           <CBadge color="success" className="ms-2">
             42
           </CBadge>
